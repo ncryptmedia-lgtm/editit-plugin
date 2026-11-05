@@ -1,7 +1,7 @@
 {
   "name": "editit",
-  "version": "2.0.0",
-  "description": "Plan motion graphics videos with Claude and open them in the Editit studio to add assets, pick a style and generate.",
+  "version": "3.0.0",
+  "description": "Make motion graphics videos with Editit inside Claude: the Editit panel for style and assets, house-style guides, previews and MP4 renders, paid in Editit credits.",
   "author": {
     "name": "Ncrypt Media"
   },

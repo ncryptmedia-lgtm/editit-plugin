@@ -1,14 +1,14 @@
 ---
 name: editit-video
-description: Start a motion graphics video in Editit (explainers, SaaS product videos, kinetic typography, documentary and map videos). Use when the user asks to make or plan a video, reel or motion graphic with Editit.
+description: Make a motion graphics video with Editit (explainers, SaaS product videos, kinetic typography, documentary and map videos) and render it to MP4. Use when the user asks to make, animate or render a video, reel or motion graphic with Editit.
 ---
 
-# Starting a video with Editit
+# Making a video with Editit
 
-Editit makes the video in its own studio app. Your job is to help the user shape a strong brief and hand it to Editit.
+1. **Open Editit.** Call `open_editit`, passing anything the user already said (brief, style, format, length). The Editit panel appears: the user writes the brief, picks the style, format and length, adds their logo and images and presses Generate, which uses their Editit credits.
+2. **Read the guide.** When the panel sends the video id, call `get_video_guide` with it and read every part (`part: 2`, `3`, … until it says "last part"). The guide is the authority on the look and the technical rules.
+3. **Write the file.** Write the complete video file the guide describes. Keep it out of the chat unless the user asks to see it.
+4. **Preview and fix.** Call `preview_frames` with the file. Fix every error and quality note, compare the frames with the guide, and preview again until it looks right.
+5. **Finish.** Call `finish_video` with the final file, then `render_status` every 30–60 seconds until it is done. Give the user the MP4 link and the project link.
 
-1. **Shape the brief.** Ask what the video is about: the story, the key lines, names and numbers, who it is for. Call `list_styles` and suggest a style, a format (9:16, 16:9, 1:1 or 4:5) and a length within their plan limit. Ask only for what is missing.
-2. **Start it.** Call `start_video` with the brief, a project name and your suggested style, format and length.
-3. **Hand over.** Give the user the link. In Editit they add their logo, screenshots, photos or voiceover, confirm the style and generate. Generating uses their Editit credits.
-
-`my_videos` lists their recent Editit projects with links. Plans and credits: https://editit.in/pricing.
+If the panel says the user is out of credits or over their plan's length limit, point them to https://editit.in/pricing.

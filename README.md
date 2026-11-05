@@ -1,6 +1,6 @@
 # Editit for Claude
 
-Plan a motion graphics video with Claude and open it straight in Editit. Claude helps you shape the brief; Editit saves it as a draft in your account and gives you a link to the studio, where you add your logo, screenshots or voiceover, pick the style and generate. Generating uses your Editit credits as usual.
+Make motion graphics videos with Editit inside Claude. Ask for a video and the Editit panel opens in the chat: write the brief, pick a style, format and length, add your logo and images and press Generate. Claude then makes the video with Editit's house style, checks it with preview frames and renders the MP4 into your Editit account. Generating uses your Editit credits, at the same prices as the Editit app.
 
 You need an Editit account: https://editit.in
 
@@ -8,7 +8,7 @@ You need an Editit account: https://editit.in
 1. Open **Settings → Connectors → Add custom connector**.
 2. Name: `Editit`. URL: `https://editit.in/mcp`.
 3. Click **Connect**, sign in to Editit and click **Allow**.
-4. In a chat, ask: "Help me plan a 15-second Saas video for my app and start it in Editit".
+4. In a chat, ask: "Make a 15-second Saas video for my app with Editit".
 
 ## Claude Code
 Install the plugin (adds the connector and the Editit skill):
