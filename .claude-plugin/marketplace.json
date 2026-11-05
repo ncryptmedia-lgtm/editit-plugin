@@ -1,0 +1,13 @@
+{
+  "name": "editit",
+  "owner": {"name": "Ncrypt Media"},
+  "metadata": {"description": "Editit plugins for Claude Code"},
+  "plugins": [
+    {
+      "name": "editit",
+      "source": "./editit",
+      "description": "Make motion graphics videos with Editit: house styles, free previews and MP4 renders charged in Editit credits.",
+      "version": "1.0.0"
+    }
+  ]
+}

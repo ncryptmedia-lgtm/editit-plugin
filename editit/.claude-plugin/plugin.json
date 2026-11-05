@@ -1,0 +1,15 @@
+{
+  "name": "editit",
+  "version": "1.0.0",
+  "description": "Make motion graphics videos with Editit: house styles, free previews and MP4 renders charged in Editit credits.",
+  "author": {
+    "name": "Ncrypt Media"
+  },
+  "homepage": "https://editit.in",
+  "keywords": [
+    "video",
+    "motion graphics",
+    "editit"
+  ],
+  "privacyPolicyUrl": "https://editit.in/privacy"
+}

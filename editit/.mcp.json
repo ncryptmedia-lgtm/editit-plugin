@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "editit": {"type": "http", "url": "https://editit.in/mcp"}
+  }
+}
