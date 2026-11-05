@@ -1,7 +1,7 @@
 {
   "name": "editit",
-  "version": "1.0.0",
-  "description": "Make motion graphics videos with Editit: house styles, free previews and MP4 renders charged in Editit credits.",
+  "version": "2.0.0",
+  "description": "Plan motion graphics videos with Claude and open them in the Editit studio to add assets, pick a style and generate.",
   "author": {
     "name": "Ncrypt Media"
   },
