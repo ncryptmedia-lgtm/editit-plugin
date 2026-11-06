@@ -1,6 +1,13 @@
 # Editit for Claude
 
-Make motion graphics videos with Editit inside Claude. Ask for a video and the Editit panel opens in the chat: write the brief, pick a style, format and length, add your logo and images and press Generate. Claude then makes the video with Editit's house style, checks it with preview frames and renders the MP4 into your Editit account. Generating uses your Editit credits, at the same prices as the Editit app.
+Make motion graphics videos with Editit inside Claude. Ask for a video and the Editit panel opens in the chat: write the brief, pick a style, format and length, add your logo and images and press Generate. Claude then makes the video with Editit's house style, checks it with preview frames and renders the MP4 into your Editit account. Generating uses your Editit credits, and videos made in Claude cost less than in the Editit app:
+
+| Length | Credits |
+|---|---|
+| up to 15 s | 30 |
+| up to 30 s | 40 |
+| up to 60 s | 70 |
+| each change after a render | 15 |
 
 You need an Editit account: https://editit.in
 
