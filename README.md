@@ -12,7 +12,7 @@ Make motion graphics videos with Editit inside Claude. Ask for a video and the E
 You need an Editit account: https://editit.in
 
 ## Claude (web, desktop and mobile)
-1. Open **Settings → Connectors → Add custom connector**.
+1. Open **Customize → Connectors** (https://claude.ai/customize/connectors) and click **Add custom connector**.
 2. Name: `Editit`. URL: `https://editit.in/mcp`.
 3. Click **Connect**, sign in to Editit and click **Allow**.
 4. In a chat, ask: "Make a 15-second Saas video for my app with Editit".
